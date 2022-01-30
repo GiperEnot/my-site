@@ -131,12 +131,18 @@ i {
 .skills-level {
   font-size: 12px;
   text-align: center;
-  color: #ffffff;
-  background-color: #4470c4;
 }
 
 .skills-level-ok {
   background-color: #47bb52;
+}
+
+.skills-level-orange {
+  background-color: orange;
+}
+
+.skills-level-red {
+  background-color: red;
 }
 
 .days {

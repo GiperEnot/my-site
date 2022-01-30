@@ -118,6 +118,11 @@ body {
   background-image: url("img/icon-css.svg");
 }
 
+.skill-js {
+  background-image: url("img/icon-js.svg");
+
+}
+
 .level {
   margin: 4px 0 16px;
   padding: 0;
@@ -128,10 +133,54 @@ body {
   border-radius: 8px;
 }
 
-.level div {
+.level-green {
+  margin: 4px 0 16px;
+  padding: 0;
+  height: 14px;
+  font-size: 0;
+  background-color: blue(255, 255, 255);
+  border: 1px solid blue;
+  border-radius: 8px;
+}
+
+.level-green div {
   margin: 1px;
   height: 12px;
-  background-color: #288be6;
+  background-color: green;
+  border-radius: 6px;
+}
+
+.level-orange {
+  margin: 4px 0 16px;
+  padding: 0;
+  height: 14px;
+  font-size: 0;
+  background-color: blue(255, 255, 255);
+  border: 1px solid blue;
+  border-radius: 8px;
+}
+
+.level-orange div {
+  margin: 1px;
+  height: 12px;
+  background-color: orange;
+  border-radius: 6px;
+}
+
+.level-red {
+  margin: 4px 0 16px;
+  padding: 0;
+  height: 14px;
+  font-size: 0;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid blue;
+  border-radius: 8px;
+}
+
+.level-red div {
+  margin: 1px;
+  height: 12px;
+  background-color: red;
   border-radius: 6px;
 }
 
